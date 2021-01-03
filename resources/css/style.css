@@ -56,25 +56,42 @@ html {
     margin-right: 17px;
 }
 
-.hero-text-box {
+.hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/showroom.png);
     background-size: cover;
     background-position: center;
     height: 80vh;
 }
 
-.hero-content {
-    position: relative;
-    top: 20vh;
+.hero-text {
+    position: absolute;
+    top: 35%;
     margin-left: 35px;
 }
 
-.hero-text-box h1 {
+h1 {
     color: #fff;
-    font-size: 200%;
-    margin: 0;
+    margin: auto;
 }
 
 .btn {
-    margin-top: 80px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px 10px 7px 10px;
+    text-decoration: none;
+    border: 2px solid;
+    border-color: #ff9a00;
+    border-radius: 7px;
+}
+
+.btn-solid {
+    color: #fff;
+    background-color: #ff9a00;
+    font-weight: 400;
+    margin: 0 10px 0 2px;
+}
+
+.btn-outline {
+    color: #ff9a00;
+    font-weight: 400;
 }
