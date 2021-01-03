@@ -22,17 +22,16 @@ html {
 
 /* -------- NAV -------- */
 
-nav {
+.nav {
     background-color: #ff9a00;
+    padding-bottom: 20px;
 }
 
 .nav-logo {
     width: 180px;
     height: auto;
     float: left;
-    margin-left: 35px;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    margin: 20px 0 0 35px;
 }
 
 .nav-links {
@@ -53,23 +52,29 @@ nav {
     margin-right: 18px;
 }
 
-.nav-links li:last-child {
-    margin-right: 35px;
+.nav-links:last-child {
+    margin-right: 17px;
 }
 
 .hero-text-box {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/showroom.png);
     background-size: cover;
     background-position: center;
-    height: 84vh;
+    height: 80vh;
 }
 
 .hero-content {
-    margin: 0 0 0 35px;
+    position: relative;
+    top: 20vh;
+    margin-left: 35px;
 }
 
 .hero-text-box h1 {
-    font-family: 'Graduate', 'Lato', 'Arial', sans-serif;
-    color: #ffffff;
+    color: #fff;
+    font-size: 200%;
     margin: 0;
+}
+
+.btn {
+    margin-top: 80px;
 }
