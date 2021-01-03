@@ -1,0 +1,58 @@
+/* -------- COLORS -------- */
+
+/* ORANGE: #ff9a00 */
+/* ORANGE: #ff9a00 */
+
+/* -------- BASIC SETUP -------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------- NAV -------- */
+
+nav {
+    background-color: #ff9a00;
+}
+
+.nav-logo {
+    width: 180px;
+    height: auto;
+    float: left;
+    margin-left: 35px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    text-align: right;
+    margin-top: 45px;
+}
+
+.nav-links a {
+    font-size: 80%;
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 18px;
+}
+
+.nav-links li:last-child {
+    margin-right: 35px;
+}
