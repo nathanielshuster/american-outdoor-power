@@ -20,21 +20,42 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-/* -------- NAV -------- */
+/* -------- HEADER -------- */
 
-.nav {
-    background-color: #ff9a00;
+.hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.71)), url(../img/showroom.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .nav-logo {
-    width: 180px;
+    width: 200px;
     height: auto;
-    margin: 20px 0 20px 35px;
+    margin: 10px 0 0 30px;
 }
 
 .main-nav {
     list-style: none;
     text-align: right;
+    margin-top: 35px;
+}
+
+.main-nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.main-nav:last-child {
+    margin-right: 15px;
 }
 
 .nav-link {
@@ -44,20 +65,7 @@ html {
     color: #fff;
 }
 
-.hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/showroom.png);
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-}
-
-.hero-text {
-    position: absolute;
-    top: 35%;
-    margin-left: 35px;
-}
-
 h1 {
     color: #fff;
-    margin: auto;
+    margin: 0;
 }
