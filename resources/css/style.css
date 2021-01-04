@@ -24,36 +24,24 @@ html {
 
 .nav {
     background-color: #ff9a00;
-    padding-bottom: 20px;
 }
 
 .nav-logo {
     width: 180px;
     height: auto;
-    float: left;
-    margin: 20px 0 0 35px;
+    margin: 20px 0 20px 35px;
 }
 
-.nav-links {
+.main-nav {
     list-style: none;
     text-align: right;
-    margin-top: 43px;
 }
 
-.nav-links a {
+.nav-link {
     font-size: 80%;
     text-decoration: none;
     font-weight: 400;
     color: #fff;
-}
-
-.nav-links li {
-    display: inline;
-    margin-right: 18px;
-}
-
-.nav-links:last-child {
-    margin-right: 17px;
 }
 
 .hero-image {
@@ -72,26 +60,4 @@ html {
 h1 {
     color: #fff;
     margin: auto;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 7px 10px 7px 10px;
-    text-decoration: none;
-    border: 2px solid;
-    border-color: #ff9a00;
-    border-radius: 7px;
-}
-
-.btn-solid {
-    color: #fff;
-    background-color: #ff9a00;
-    font-weight: 400;
-    margin: 0 10px 0 2px;
-}
-
-.btn-outline {
-    color: #ff9a00;
-    font-weight: 400;
 }
