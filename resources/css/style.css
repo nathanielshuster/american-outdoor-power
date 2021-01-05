@@ -1,7 +1,6 @@
 /* -------- COLORS -------- */
 
-/* ORANGE: #ff9a00 */
-/* ORANGE: #ff9a00 */
+/* ORANGE: #f09100 */
 
 /* -------- BASIC SETUP -------- */
 
@@ -55,7 +54,7 @@ section {
 .main-nav {
     list-style: none;
     text-align: right;
-    margin-top: 35px;
+    margin-top: 38px;
 }
 
 .main-nav li {
@@ -71,7 +70,28 @@ section {
 }
 
 h1 {
-    font-size: 200%;
+    font-size: 250%;
+    font-weight: 300;
     color: #fff;
     margin: auto;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #f09100;
+    border: 2px solid #f09100;
+    border-radius: 9px;
+    padding: 7px 15px;
+}
+
+.btn-solid {
+    margin-left: 5px;
+    color: #fff;
+    background-color: #f09100;
+}
+
+.btn-outline {
+    margin-left: 10px;
 }
